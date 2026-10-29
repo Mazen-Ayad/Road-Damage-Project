@@ -1,0 +1,26 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# YOLO training outputs
+runs/
+wandb/
+
+# Local datasets
+datasets/
+dataset/
+road-damage/
